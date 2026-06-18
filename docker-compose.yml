@@ -1,0 +1,6 @@
+services:
+  shopping-cart-app:
+    build: .
+    container_name: shopping-cart-app
+    ports:
+      - "4321:4321"
